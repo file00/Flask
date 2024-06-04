@@ -16,7 +16,7 @@ def get_user():
 if __name__ == "__main__":
     with app.test_request_context():
         print(url_for("hello"))
-        print(url_for("get_user",username = "Yeon"))
+        print(url_for("get_user",username = "Git"))
     
 
 
